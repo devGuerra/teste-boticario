@@ -5,7 +5,7 @@ import News from '../../pages/News';
 
 const Tab = createMaterialTopTabNavigator();
 
-function HeaderTabs() {
+function HomeTabs() {
   return (
     <Tab.Navigator>
       <Tab.Screen name="Feed" component={Feed} />
@@ -14,4 +14,4 @@ function HeaderTabs() {
   );
 }
 
-export default HeaderTabs;
+export default HomeTabs;
