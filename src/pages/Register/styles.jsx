@@ -1,15 +1,14 @@
 import styled from 'styled-components/native';
+import colors from '../../constants/colors';
 
 export const Container = styled.View`
   flex: 1;
-  background-color: #6F967E;
+  background-color: ${colors.default};
   padding-left: 20;
   padding-right: 20;
-  align-items: center;
   justify-content: center;
 `;
 
 export const Box = styled.View`
-  flex: 1;
-  background-color: "#6F967E";
+  justify-content: center;
 `;
