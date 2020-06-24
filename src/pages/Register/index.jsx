@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-import { Container } from './styles';
+import {
+  Container, Box, Logo, BoxImage,
+} from './styles';
 
 import InputField from '../../components/InputField';
 import Button from '../../components/Button';
@@ -13,6 +15,9 @@ const Register = ({ navigation }) => {
   const [password, SetPassword] = useState('');
   return (
     <Container>
+      <BoxImage>
+        <Logo source={require('../../assets/images/logo-white.png')} resizeMode="center" />
+      </BoxImage>
       <InputField
         error={false}
         value={name}
