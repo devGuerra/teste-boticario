@@ -32,7 +32,7 @@ const Routes = () => (
         name="Home"
         component={HomeTabs}
         options={{
-          title: 'Feed',
+          title: 'Boticario News',
           headerStyle: {
             backgroundColor: colors.default,
 
