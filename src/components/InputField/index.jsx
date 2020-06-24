@@ -1,8 +1,8 @@
 import React from 'react';
-import { View, TextInput } from 'react-native';
+import { View } from 'react-native';
 
 import {
-  Input, Text, Container,
+  Input, Text, Container, TextInput,
 } from './styles';
 
 export default function InputField({
@@ -17,6 +17,7 @@ export default function InputField({
   autoFocus,
   color,
   capitalize,
+  border,
   ...props
 }) {
   return (
@@ -37,6 +38,7 @@ export default function InputField({
             error={error}
             multiline={multiline}
             maxLength={maxLength}
+            border={border}
           />
         ) : (
           <Input

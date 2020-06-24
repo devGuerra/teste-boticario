@@ -8,8 +8,8 @@ const Feed = () => {
   const [posts] = useState([{
     id: '1',
     user: {
-      name: 'O Boticário',
-      profile_picture: 'https://pbs.twimg.com/profile_images/1272496197995986952/jeJkj3Ma_400x400.jpg',
+      name: 'Roberto Guerra',
+      profile_picture: 'https://pbs.twimg.com/profile_images/1164003322992480258/h3IGJTfz_400x400.jpg',
     },
     message: {
       content: 'Além disso, nossos funcionários e familiares receberão kits de proteção. Afinal, o cuidado começa aqui dentro, né?',
@@ -19,8 +19,8 @@ const Feed = () => {
   {
     id: '2',
     user: {
-      name: 'O Boticário',
-      profile_picture: 'https://pbs.twimg.com/profile_images/1272496197995986952/jeJkj3Ma_400x400.jpg',
+      name: 'Dev Na Estrada',
+      profile_picture: 'https://pbs.twimg.com/profile_images/984616273630941186/qKd10AiN_400x400.jpg',
     },
     message: {
       content: 'Com a união das demais marcas do grupo, doamos 216 toneladas de produtos de higiene para comunidades em vulnerabilidade social de diversas partes do país.',
@@ -30,8 +30,8 @@ const Feed = () => {
   {
     id: '3',
     user: {
-      name: 'O Boticário',
-      profile_picture: 'https://pbs.twimg.com/profile_images/1272496197995986952/jeJkj3Ma_400x400.jpg',
+      name: 'IBM Brasil',
+      profile_picture: 'https://pbs.twimg.com/profile_images/1267837325729554432/buXhDqJd_400x400.png',
     },
     message: {
       content: 'Tá sabendo da novidade? Tem lançamento de batons Make B. com ácido hialurônico e tá rolando amostra no app do Boti',
@@ -41,8 +41,8 @@ const Feed = () => {
   {
     id: '4',
     user: {
-      name: 'O Boticário',
-      profile_picture: 'https://pbs.twimg.com/profile_images/1272496197995986952/jeJkj3Ma_400x400.jpg',
+      name: 'Alura',
+      profile_picture: 'https://pbs.twimg.com/profile_images/1202218595775918080/FIuHBai3_400x400.jpg',
     },
     message: {
       content: 'Passe protetor solar e beba muuuita água. Essa dupla é essencial pra você conseguir aproveitar todos os dias de festa. Cuida desse corpo que você tanto ama!',
@@ -52,8 +52,8 @@ const Feed = () => {
   {
     id: '5',
     user: {
-      name: 'O Boticário',
-      profile_picture: 'https://pbs.twimg.com/profile_images/1272496197995986952/jeJkj3Ma_400x400.jpg',
+      name: 'TDC2020',
+      profile_picture: 'https://pbs.twimg.com/profile_images/579985773610532864/cVI4GFs4_400x400.png',
     },
     message: {
       content: 'Rainha que é Rainha também se preocupa com o reino animal. Tô muito orgulhosa e querendo que essa atitude vire moda! O Boti ama muito os bichinhos e não testa em animais há quase 20 anos.',
@@ -63,8 +63,8 @@ const Feed = () => {
   {
     id: '6',
     user: {
-      name: 'O Boticário',
-      profile_picture: 'https://pbs.twimg.com/profile_images/1272496197995986952/jeJkj3Ma_400x400.jpg',
+      name: 'Google DevRel Brasil',
+      profile_picture: 'https://pbs.twimg.com/profile_images/1132972494233702400/NOR9cnBW_400x400.jpg',
     },
     message: {
       content: 'Produtos veganos também demonstram nosso amor pela natureza!  Sabia que são mais de 30% de produtos de make sem nenhuma matéria-prima de origem animal? Ah, e 40% da linha de Nativa SPA também é vegana. Pra saber se o produto é vegano, é só conferir na embalagem!',

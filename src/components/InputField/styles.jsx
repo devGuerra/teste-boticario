@@ -4,7 +4,6 @@ import colors from '../../constants/colors';
 
 export const Container = styled.View`
   position: relative;
-  height: ${normalize(50)};
   border-radius: ${normalize(10)};
   margin-top: ${normalize(10)};
   margin-bottom: ${normalize(10)};
@@ -24,6 +23,17 @@ export const Input = styled.TextInput`
   color: ${(props) => (props.error ? colors.red : colors.black)};
   background-color: transparent;
   border-color: transparent;
+`;
+export const TextInput = styled.TextInput`
+  height: ${normalize(200)};
+  padding-top: ${normalize(5)};
+  padding-bottom: ${normalize(5)};
+  padding-left: ${normalize(5)};
+  padding-right: ${normalize(5)};
+  color: ${(props) => (props.error ? colors.red : colors.black)};
+  border-color: #ccc;
+  border-width: 1;
+  border-radius: 5;
 `;
 
 export const Text = styled.Text`
